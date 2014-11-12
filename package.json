@@ -1,0 +1,11 @@
+{
+  "name": "twittertime",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "studiomoniker",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.0"
+  }
+}
