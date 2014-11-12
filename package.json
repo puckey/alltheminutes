@@ -6,6 +6,7 @@
   "author": "studiomoniker",
   "license": "MIT",
   "dependencies": {
-    "mkdirp": "^0.5.0"
+    "mkdirp": "^0.5.0",
+    "twit": "^1.1.18"
   }
 }
