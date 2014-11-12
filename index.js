@@ -32,7 +32,9 @@ function getTweet(callback) {
     query = encodeURIComponent(
         '"its ' + shortHour + ':' + minute + '' + amPm + ' and"' +
         ' OR ' +
-        '"its ' + shortHour + ':' + minute + ' ' + amPm + ' and"'
+        '"its ' + shortHour + ':' + minute + ' ' + amPm + ' and"' +
+        ' OR ' + 
+        '"it is ' + shortHour + ':' + minute + ' ' + amPm + ' and"'
     );
 
     var url = 'http://otter.topsy.com/search.js?q=' + query + '&offset=0&perpage=100&window=a&apikey=' + config.topsy_key;
