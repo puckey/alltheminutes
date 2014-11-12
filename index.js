@@ -47,7 +47,7 @@ function getTweet(callback) {
 	            // and tweets that do not start with 'It'
 	            // and tweets longer than 100 characters:
 	            return !/#|http/.test(tweet.content)
-	            		&& /^It/i.test(tweet.content)
+	            		&& /^it/i.test(tweet.content)
 	            		&& (tweet.content.length < 100);
 	        });
 			if (!tweets.length)
