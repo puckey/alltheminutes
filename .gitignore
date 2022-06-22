@@ -111,5 +111,5 @@ local_files/*
 .prettierrc
 .eslintrc.json
 tests/*
-package.lock.json
+package-lock.json
 .vscode
