@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  alltheminutesupdated:
+    image: alltheminutesupdated
+    container_name: all-the-minutes-v2
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - NODE_ENV
+      - TWITTER_API_KEY
+      - TWITTER_API_KEY_SECRET
+      - ACCESS_TOKEN
+      - ACCESS_TOKEN_SECRET
+      - TWITTER_USER_ID
+
